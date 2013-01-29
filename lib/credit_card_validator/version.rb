@@ -1,3 +1,3 @@
 module CreditCardValidator
-  VERSION = "0.0.2"
+  VERSION = "1.1.2"
 end
