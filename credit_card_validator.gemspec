@@ -3,7 +3,7 @@ require File.expand_path('../lib/credit_card_validator/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Craig Sheen"]
-  gem.email         = ["craig@hotmail.co.uk"]
+  gem.email         = ["craig_sheen@hotmail.com"]
   gem.description   = %q{A simple gem to work out the type and validity from a credit card number}
   gem.summary       = %q{A simple gem to work out the type and validity from a credit card number}
   gem.homepage      = ""
