@@ -18,7 +18,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To check a credit card number simply input pass the number to the validate method:
+
+    $ CreditCardValidator.validate(n)
+
 
 ## Contributing
 
