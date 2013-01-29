@@ -2,7 +2,7 @@ require "credit_card_validator/version"
 
 module CreditCardValidator
   
-  def validate_credit_card(number)
+  def self.validate(number)
     number = number.gsub(/\s+/, "")
     if (number[0,2] == "34" || number[0,2] == "37") && number.length == 15
       check = "AMEX: "
