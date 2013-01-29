@@ -22,6 +22,17 @@ To check a credit card number simply input pass the number to the validate metho
 
     $ CreditCardValidator.validate(n)
 
+Examples:
+
+		$	CreditCardValidator.validate(4111111111111111)
+		$	=> {:type=>"VISA", :number=>"4111111111111111", :valid=>"Valid"}
+		$
+		$ CreditCardValidator.validate(349999999999999)
+		$	=> {:type=>"AMEX", :number=>"349999999999999", :valid=>"Invalid"}
+		$
+		$	CreditCardValidator.validate(12345)
+		$	=> {:error=>"Unknown card type"}
+
 
 ## Contributing
 
