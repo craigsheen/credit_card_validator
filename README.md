@@ -6,7 +6,7 @@ A simple credit card validator which will return the card type and validity.
 
 Add this line to your application's Gemfile:
 
-    gem 'credit_card_validator'
+    gem 'credit_card_validator', :git => "git@github.com:craigsheen/credit_card_validator.git"
 
 And then execute:
 
